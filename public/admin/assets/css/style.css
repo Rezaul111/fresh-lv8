@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.blue {
+    background-color: rgb(8, 8, 77);
+    width: 100%;
+    border-bottom: 6px solid rgb(29, 9, 143);
+}
+.secure-area {
+
+    background-color: rgb(32, 32, 37);
+    width: 100%;
+    border-top: 20px solid rgb(5, 5, 51) ;
+}
+
+.ul li .contact-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact {
+    height: 100%;
+}
+.contact ul li {
+    list-style: none;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: rgb(5, 5, 51);
+}
+.footer-text p{
+    padding: 3px;
+    font-size: 10px;
+}
+@media (min-width: 992px) { 
+    .sub-btn {
+        padding-left: 80px;
+    }
+}
+@media (min-width: 1200px) {  
+    .sub-btn {
+        padding-left: 80px;
+    }
+}
